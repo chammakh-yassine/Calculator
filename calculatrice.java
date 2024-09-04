@@ -26,14 +26,4 @@ public class calculatrice {
 		res = ""+a/b ;
 		return res;
 	}
-	
-
-	public static int blanche_test(int a,int b){
-		if(a == b)
-			return 0;
-		else if(a<b)
-			return b-a;
-		else
-			return 2*a*b;
-	}
 }
