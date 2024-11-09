@@ -19,9 +19,9 @@ public class calculatrice {
 	}
 	
 	public static String division(int a, int b){
-		String  res ;
+		String res ;
 		if(b==0)
-		res = "error";
+		res = " Math error";
 		else
 		res = ""+a/b ;
 		return res;
